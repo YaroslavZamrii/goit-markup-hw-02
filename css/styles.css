@@ -32,3 +32,100 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+/*----- Header ----- */
+
+.header {
+}
+.header-navigation {
+}
+.header-logo {
+}
+.header-list {
+}
+.header-item {
+}
+.header-link {
+}
+.header-contacts {
+}
+.header-contacts-item {
+}
+.header-mail {
+}
+.header-tel {
+}
+
+/*----- Hero ----- */
+.hero {
+}
+.hero-title {
+}
+.hero-btn {
+}
+
+/*--- Section About---*/
+.about {
+}
+.about-title {
+}
+.about-list {
+}
+.about-item {
+}
+.about-item-title {
+}
+.about-text {
+}
+
+/*--- Section Example ---*/
+.example {
+}
+.example-title {
+}
+.example-list {
+}
+.example-item {
+}
+
+/*--- Section Team ---*/
+.team {
+}
+.team-title {
+}
+.team-list {
+}
+.team-item {
+}
+.team-item-title {
+}
+.team-text {
+}
+
+/*--- Footer ---*/
+.footer {
+}
+.footer-logo {
+}
+.footer-text {
+}
+
+/*--- Portfolio ---*/
+.portfolio {
+}
+.portfolio-title {
+}
+.portfolio-btn-list {
+}
+.portfolio-btn-item {
+}
+.portfolio-btn {
+}
+.portfolio-example-list {
+}
+.portfolio-example-item {
+}
+.portfolio-example-title {
+}
+.portfolio-category {
+}
