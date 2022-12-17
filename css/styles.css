@@ -38,7 +38,6 @@ body {
 /*----- Header ----- */
 
 .header {
-  
 }
 .header-navigation {
 }
@@ -53,19 +52,38 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
 }
+.logo-studio {
+  color: #2e2f42;
+}
 .header-list {
 }
 .header-item {
 }
 .header-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
-.header-contacts {
+.header-link:hover,
+.header-link:focus {
+  color: #434455;
+}
+.header-contacts-list {
 }
 .header-contacts-item {
 }
-.header-mail {
+.header-contacts-link {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
-.header-tel {
+.header-contacts-link:hover,
+.header-contacts-link:focus {
+  color: #4d5ae5;
 }
 
 /*----- Hero ----- */
@@ -90,7 +108,10 @@ body {
   background: #4d5ae5;
   cursor: pointer;
 }
-
+.hero-btn:hover,
+.hero-btn:focus {
+  background: #4d5ae5;
+}
 /*--- Section About---*/
 .about {
 }
@@ -101,40 +122,92 @@ body {
 .about-item {
 }
 .about-item-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 .about-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 /*--- Section Example ---*/
 .example {
 }
 .example-title {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 .example-list {
 }
 .example-item {
 }
-
 /*--- Section Team ---*/
 .team {
+  background: #f4f4fd;
 }
 .team-title {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 .team-list {
 }
 .team-item {
+  background: #ffffff;
 }
 .team-item-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 .team-text {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 /*--- Footer ---*/
 .footer {
+  background: #2e2f42;
 }
 .footer-logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.footer-logo-studio {
+  color: #f4f4fd;
 }
 .footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #e7e9fc;
 }
 
 /*--- Portfolio ---*/
