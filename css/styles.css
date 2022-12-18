@@ -2,12 +2,11 @@
   --background-white-color: #ffffff;
   --body-text-color: #434455;
   --primary-color: #4d5ae5;
-  --dark-color: #2E2F42;
-  --accent-color: #E7E9FC;
-  --light-background-color: #F4F4FD;
+  --dark-color: #2e2f42;
+  --accent-color: #e7e9fc;
+  --light-background-color: #f4f4fd;
   --text-white-color: #ffffff;
-  --button-avtive-color: #404BBF;
-
+  --button-avtive-color: #404bbf;
 }
 
 body {
@@ -92,7 +91,7 @@ body {
 
 /*-------------- Hero ------------- */
 .hero {
-  background-color: var(--dark-color)
+  background-color: var(--dark-color);
 }
 .hero-title {
   font-weight: 600;
@@ -120,7 +119,7 @@ body {
   background: var(--primary-color);
 }
 .hero-btn:active {
-  background: var(--button-avtive-color)
+  background: var(--button-avtive-color);
 }
 /*------------ Section About-----------*/
 .about {
@@ -163,7 +162,7 @@ body {
 }
 /*------------- Section Team -----------*/
 .team {
-  background: var(--background-white-color)
+  background: var(--background-white-color);
 }
 .team-title {
   font-weight: 600;
@@ -211,13 +210,13 @@ body {
   color: var(--primary-color);
 }
 .footer-logo-studio {
-  color: var(--background-white-color)
+  color: var(--background-white-color);
 }
 .footer-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--accent-color)
+  color: var(--accent-color);
 }
 
 /*------------ Portfolio -----------------*/
