@@ -162,7 +162,7 @@ body {
 }
 /*------------- Section Team -----------*/
 .team {
-  background: var(--background-white-color);
+  background: var(--light-background-color);
 }
 .team-title {
   font-weight: 600;
@@ -237,10 +237,12 @@ body {
   text-align: center;
   letter-spacing: 0.04em;
   color: var(--primary-color);
-  background: var(--background-white-color);
+  background: var(--light-background-color);
   cursor: pointer;
 }
-.portfolio-btn:active {
+.portfolio-btn:active,
+.portfolio-btn:hover,
+.portfolio-btn:focus {
   background: var(--primary-color);
   color: var(--text-white-color);
 }
@@ -249,7 +251,6 @@ body {
 .portfolio-example-item {
 }
 .portfolio-example-title {
-  font-style: normal;
   font-weight: 600;
   font-size: 20px;
   line-height: 1.2;
